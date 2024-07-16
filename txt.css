@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg,#4d0833,#0e023d);
+    display: flex;
+    align-items: center;
+    color: rgb(236, 145, 245);
+    justify-content: center;
+    flex-direction: column;
+}
+.hero h1 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 50px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hero h1 span{
+    color: rgb(126, 213, 247);
+}
+textarea {
+    width: 600px;
+    height: 250px;
+    background-color: #182C61;
+    color: white;
+    font-size: 22px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+    padding: 22px;
+    resize: none;
+    margin-bottom: 30px
+}
+textarea::placeholder{
+    font-size: 23px;
+    color: rgb(201, 198, 198);
+}
+.row{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap:20px ;
+}
+button{
+    color: #ff2963 ;
+    background-color: white;
+    font-size:20px ;
+     font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 35px ; 
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+button:hover{
+    color: white;
+    background-color: #ff2963;
+}
+select {
+    flex: 1;
+    color: white;
+    background:  #242250;
+    height: 50px;
+    padding: 0 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 35px; 
+}
